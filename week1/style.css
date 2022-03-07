@@ -1,0 +1,97 @@
+body{
+    font-size:1.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    line-height:1.5rem;
+}
+h2,h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:1.7rem;
+}
+.header{
+  max-width:100%;
+    background-color:brown;
+    height:4vh;
+    margin:auto;
+    margin-bottom:10px;
+    
+
+}
+#profilimg{
+    
+    border:0;
+}
+#profilimg img{
+    margin-top:20px;
+    max-width:70%;
+
+}
+.about p{
+    font-style: italic;
+    font-size:1.1rem;
+}
+
+.cvcontainer div{
+padding-right:3vw;
+padding-left:3vw;
+
+ 
+}
+ul.main{
+    list-style-type: square ;
+    list-style-position: inside;
+}
+.sidebar{
+    background-color:rgb(44, 43, 43);
+    color:white;
+}
+.sidebar div{
+    
+    max-width:90%;
+    margin:1.2rem;
+   border:2px solid red;
+   border-radius:10px;
+   
+   
+}
+.sidebar ul{
+    list-style: circle;
+    line-height:1.8rem;
+}
+.detailedinfo{
+    background-color:white;
+    
+}
+.detailedinfo div{
+    border-bottom:4px solid black;
+    
+}
+
+.footer{
+    text-align:center;
+    margin-top:10px;
+    background-color: brown;
+}
+@media screen and (max-width: 920px) { 
+    .cvcontainer{
+        max-width:80%;
+        display:grid;
+        gap: 10px;
+        grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+      
+    }   
+}
+@media screen and (min-width: 921px) { 
+    .cvcontainer{
+    max-width:85%;
+    margin:auto;
+        display:grid;
+
+        gap: 10px;
+        grid-template-columns:1fr 2fr;
+
+      
+    }
+    
+}
