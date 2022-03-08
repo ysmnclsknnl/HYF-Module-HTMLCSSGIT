@@ -26,21 +26,20 @@ h2,h4{
     max-width:70%;
 
 }
+/*styles the paragraph giving a brief information about the employee*/
 .about p{
     font-style: italic;
     font-size:1.1rem;
 }
 
+/*styles the division that containes all the resume(CV)*/
 .cvcontainer div{
 padding-right:3vw;
 padding-left:3vw;
 
  
 }
-ul.main{
-    list-style-type: square ;
-    list-style-position: inside;
-}
+
 .sidebar{
     background-color:rgb(44, 43, 43);
     color:white;
@@ -51,20 +50,37 @@ ul.main{
     margin:1.2rem;
    border:2px solid red;
    border-radius:10px;
+   opacity:1.0;
    
    
+}
+.sidebar div:hover{
+    opacity:0.5;
+}
+.sidebar a{
+    text-decoration:none;
+    color:white;
+}
+.sidebar a:hover{
+    color:brown;
 }
 .sidebar ul{
     list-style: circle;
     line-height:1.8rem;
 }
-.detailedinfo{
+
+/* This division includes information about Work Experience and Education */
+.main{
     background-color:white;
     
 }
-.detailedinfo div{
+.main div{
     border-bottom:4px solid black;
     
+}
+.main ul{
+    list-style-type: square ;
+    list-style-position: inside;
 }
 
 .footer{
@@ -82,7 +98,7 @@ ul.main{
       
     }   
 }
-@media screen and (min-width: 921px) { 
+@media screen and (min-width: 920px) { 
     .cvcontainer{
     max-width:85%;
     margin:auto;

@@ -1,0 +1,6 @@
+1.To create a hidden folder or file we add  ' .' infront of the command.
+For example: mkdir .directoryname creates a new hidden directory named directoryname, while touch .filename creates a new hidden file. 
+To list hidden directories or files we use ls -a 
+2. To create multiple nested directory we use  mkdir -p directoryname1/directoryname2/directoryname3
+3. To append a message to a file without newline character, we use command echo  "message 2" >> textfile.txt 
+
