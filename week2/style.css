@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    width:100%;
+    color: #00112c;
+    font-family: "Fakt",sans-serif,Helvetica,Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+#adyenlogo{
+ grid-column:2/3;
+}
+.main-navigation { grid-column:3/-1;}
+
+img
+{  width:100px;}
+.container {
+    width:1000px;
+    /*
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    */
+    justify-content: center;
+  }
+  .row {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 20px;
+    border: 2px solid red;
+} 
+.row-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 20px;
+  border: 2px solid red;
+} 
+
+.main-navigation{
+    color: #00112c;
+    font-size: 1rem;
+}
+.main-navigation ul li {
+    list-style:none;
+    margin-right:10px ;
+    border:2px yellow solid; 
+}
+.main-navigation ul{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    border:2px black solid; 
+
+}
+.nav-item:last-of-type{
+    align-self:flex-end ;
+    justify-self: flex-end;
+    
+}
+.button{
+   width:10rem;
+   height:3rem;
+
+    color: #fff;
+    background-color: #0abf53;
+    border-color: #0abf53;
+    margin-top: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 12px 12px 12px 0;
+    text-align: center;
+}
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
