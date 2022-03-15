@@ -300,6 +300,10 @@ footer li{
 .footer-link:hover,.footer-title:hover,.body-link:hover{
   text-decoration: underline;
 }
+.footer_2{
+  padding: 10px;
+  font-size: small;
+}
 @media only screen and (max-width: 600px){
   *{
     padding:0;
@@ -409,8 +413,9 @@ footer li{
     width:100%;
   }
 }
-.footer_2{
-  padding: 10px;
-  font-size: small;
+
+@media only screen and (max-width: 1000px){
+  .left-menu, .right-menu{
+    display: none;
+  }
 }
-  
