@@ -17,6 +17,14 @@ h2,h4{
     
 
 }
+.cvcontainer{
+    max-width:100%;
+    display:grid;
+    gap: 10px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+  
+}   
 #profilimg{
     
     border:0;
@@ -36,8 +44,6 @@ h2,h4{
 .cvcontainer div{
 padding-right:3vw;
 padding-left:3vw;
-
- 
 }
 
 .sidebar{
@@ -45,7 +51,6 @@ padding-left:3vw;
     color:white;
 }
 .sidebar div{
-    
     max-width:90%;
     margin:1.2rem;
    border:2px solid red;
@@ -88,23 +93,10 @@ padding-left:3vw;
     margin-top:10px;
     background-color: brown;
 }
-@media screen and (max-width: 920px) { 
-    .cvcontainer{
-        max-width:80%;
-        display:grid;
-        gap: 10px;
-        grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-
-      
-    }   
-}
 @media screen and (min-width: 920px) { 
     .cvcontainer{
     max-width:85%;
     margin:auto;
-        display:grid;
-
-        gap: 10px;
         grid-template-columns:1fr 2fr;
 
       
