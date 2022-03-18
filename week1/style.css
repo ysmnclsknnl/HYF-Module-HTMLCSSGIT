@@ -90,12 +90,13 @@ padding-left:3vw;
 
 .footer{
     text-align:center;
+    width:100%;
     margin-top:10px;
     background-color: brown;
 }
 @media screen and (min-width: 920px) { 
     .cvcontainer{
-    max-width:85%;
+    max-width:100%;
     margin:auto;
         grid-template-columns:1fr 2fr;
 
